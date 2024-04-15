@@ -2,8 +2,8 @@
 # Maintainer: João Figueiredo & chaotic-aur <islandc0der@chaotic.cx>
 
 pkgname=plasma-integration-git
-pkgver=6.0.80_r799.g9338c3c
-pkgrel=3
+pkgver=6.0.80_r816.ga5683a9
+pkgrel=1
 pkgdesc="Qt Platform Theme integration plugins for the Plasma workspaces"
 arch=($CARCH)
 url='https://kde.org/plasma-desktop/'
@@ -25,7 +25,8 @@ pkgver() {
 build() {
   cmake -B build -S ${pkgname%-git} \
     -DQT_MAJOR_VERSION=6 \
-    -DBUILD_TESTING=OFF
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QT5=OFF
   cmake --build build
 }
 

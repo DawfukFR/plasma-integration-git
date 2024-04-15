@@ -1,7 +1,7 @@
 pkgbase = plasma-integration-git
 	pkgdesc = Qt Platform Theme integration plugins for the Plasma workspaces
-	pkgver = 6.0.80_r799.g9338c3c
-	pkgrel = 3
+	pkgver = 6.0.80_r816.ga5683a9
+	pkgrel = 1
 	url = https://kde.org/plasma-desktop/
 	arch = x86_64
 	groups = plasma-git
