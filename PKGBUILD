@@ -2,7 +2,7 @@
 # Maintainer: João Figueiredo & chaotic-aur <islandc0der@chaotic.cx>
 
 pkgname=plasma-integration-git
-pkgver=6.0.80_r816.ga5683a9
+pkgver=6.0.80_r818.g0865526
 pkgrel=1
 pkgdesc="Qt Platform Theme integration plugins for the Plasma workspaces"
 arch=($CARCH)
